@@ -1,12 +1,15 @@
-inputlist=[]
-numbers=int(input("enter the number of digits: "))
+InputList = []
+numbers = int(input("Enter the number of digits: "))
+
 for i in range(numbers):
-    numbers=int(input("enter the number: "))
-    inputlist.append(numbers)
-print(inputlist)
+    numbers = int(input("Enter the number: "))
+    InputList.append(numbers)
+
+print(InputList)
+
 sum = 0
 
-for i in inputlist:
-    sum = sum + i
+for items in InputList:
+    sum = sum + items
 
-print(sum)
+print("The sum of the following numbers in the list is: " + str(sum))
