@@ -9,10 +9,11 @@ def replace_in_file(file_path, search_text, replace_text):
             file.write(modified_content)
 
         print("Replacement complete.")
-    
+
     except FileNotFoundError:
         print("No file founded bhai!")
     except Exception as e:
         print("UNEXPECTED ERROR BRO!: {e}")
 
-replace_in_file('example.txt', 'old_word', 'new_word')
+
+replace_in_file('Q2.txt', 'WORLD', 'DUNYA')
