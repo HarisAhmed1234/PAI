@@ -11,6 +11,6 @@ def CountCharactersInTheFile(filename):
     except Exception as e:
         print("UNEXPECTED ERROR BRO!: {e}")
 
-filename="sample.txt"
+filename="Q1.txt"
 CountCharactersInTheFile(filename)
 
