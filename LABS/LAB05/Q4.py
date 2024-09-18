@@ -27,7 +27,7 @@ class Result(Marks):
 
     def calculate_total_and_average(self):
         total_marks = self.marks_algo + self.marks_dataScience + self.marks_calculus
-        average_marks = total_marks / 3  # Assuming three subjects
+        average_marks = total_marks / 3  
         return total_marks, average_marks
 
 
