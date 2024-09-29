@@ -37,6 +37,5 @@ class Result(Marks):
         print(f"Total Score: {total}")
         print(f"Average Score: {avg:.1f}")
 
-# Example usage
 student = Result(236005, "Haris Ahmed", 88, 99, 77)
 student.show_final_result()
