@@ -1,13 +1,8 @@
-import pandas as pd
+data = {'movie': ['Movie1', 'Movie2', 'Movie3', 'Movie4', 'Movie5'],
+        'runtime': [120, 150, 90, 180, 140]}
 
-df = pd.read_csv('movies.csv')
-
-print("Original DataFrame:")
-print(df)
+df = pd.DataFrame(data)
 
 sorted_movies = df.sort_values(by='runtime', ascending=False)
 
-print("\nSorted DataFrame by Runtime (Descending):")
 print(sorted_movies)
-
-sorted_movies.to_csv('sorted_movies.csv', index=False)
