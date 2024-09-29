@@ -1,11 +1,11 @@
 import pandas as pd
 
-df = pd.read_csv('your_dataset.csv')
+data = {'movie': ['Movie1', 'Movie2', 'Movie3', 'Movie4', 'Movie5'],
+        'revenue': [3000000, 2500000, 500000, 1000000, 4500000],
+        'budget': [800000, 500000, 1200000, 900000, 700000]}
 
-print(df.head())
+df = pd.DataFrame(data)
 
 filtered_movies = df[(df['revenue'] > 2000000) & (df['budget'] < 1000000)]
 
 print(filtered_movies)
-
-filtered_movies.to_csv('filtered_movies.csv', index=False)
