@@ -1,0 +1,66 @@
+ProductID,ProductName,Category,Price
+1,Laptop,Kitchen,1491
+2,Smartphone,Fitness,507
+3,Tablet,Fitness,1496
+4,Headphones,Sports,953
+5,Smartwatch,Smart Devices,1233
+6,Refrigerator,Furniture,482
+7,Washing Machine,Kitchen,329
+8,Microwave,Music,488
+9,Air Conditioner,Fitness,1216
+10,Camera,Fitness,1014
+11,Television,Furniture,1499
+12,Printer,Music,498
+13,Monitor,Furniture,258
+14,Keyboard,Kitchen,1101
+15,Mouse,Fitness,1216
+16,Speaker,Appliances,1011
+17,Router,Gadgets,49
+18,Smart Light,Kitchen,1301
+19,Vacuum Cleaner,Sports,515
+20,Electric Kettle,Camping,611
+21,Blender,Home Decor,960
+22,Coffee Maker,Furniture,1410
+23,Toaster,Outdoor,807
+24,Sofa,Home Decor,1463
+25,Dining Table,Furniture,513
+26,Wardrobe,Appliances,954
+27,Bed,Electronics,612
+28,Chair,Music,464
+29,Desk,Smart Devices,169
+30,Bookshelf,Music,476
+31,Curtains,Appliances,1178
+32,Lamp,Appliances,76
+33,Ceiling Fan,Electronics,981
+34,Heater,Kitchen,566
+35,Iron,Sports,1177
+36,Hair Dryer,Camping,1226
+37,Electric Razor,Sports,1270
+38,Water Purifier,Furniture,218
+39,Oven,Appliances,1467
+40,Cooktop,Furniture,1184
+41,Dishwasher,Electronics,353
+42,Mixer Grinder,Appliances,790
+43,Fitness Tracker,Camping,1372
+44,Game Console,Appliances,751
+45,VR Headset,Fitness,1117
+46,Drone,Appliances,736
+47,Action Camera,Kitchen,362
+48,Security Camera,Camping,343
+49,Bluetooth Earbuds,Fitness,989
+50,Projector,Fitness,1392
+51,Electric Guitar,Camping,709
+52,Piano,Smart Devices,1116
+53,Drum Set,Music,822
+54,Electric Scooter,Clothing,508
+55,Bicycle,Sports,574
+56,Treadmill,Appliances,379
+57,Yoga Mat,Appliances,404
+58,Dumbbells,Kitchen,306
+59,Elliptical Machine,Smart Devices,661
+60,Running Shoes,Furniture,186
+61,Tent,Clothing,492
+62,Sleeping Bag,Kitchen,939
+63,Camping Chair,Gadgets,623
+64,Backpack,Furniture,239
+65,Camping Stove,Music,122
