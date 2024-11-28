@@ -1,24 +1,25 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-students = ['Student ' + str(i) for i in range(1, 21)]
-heights = [150, 160, 165, 170, 155, 180, 175, 160, 168, 158,
-           162, 170, 172, 158, 165, 174, 160, 159, 167, 173]
+student_names = ['Pupil ' + str(i) for i in range(1, 21)]
+student_heights = [150, 160, 165, 170, 155, 180, 175, 160, 168, 158,
+                   162, 170, 172, 158, 165, 174, 160, 159, 167, 173]
 
-plt.figure(figsize=(10, 5))
+bar_colors = np.random.rand(len(student_names), 3)
 
-colors = np.random.rand(len(students), 3)
-
-plt.bar(students, heights, color=colors)
-plt.title('Student Heights Bar Chart')
-plt.xlabel('Students')
+# Bar chart
+plt.figure(figsize=(12, 6))
+plt.bar(student_names, student_heights, color=bar_colors)
+plt.title('Heights of Students - Bar Chart')
+plt.xlabel('Student Names')
 plt.ylabel('Height (cm)')
 plt.xticks(rotation=45)
 plt.tight_layout()
 plt.show()
 
-plt.figure(figsize=(8, 8))
-plt.pie(heights, labels=students, autopct='%1.1f%%')
-plt.title('Student Heights Pie Chart')
+# Pie chart
+plt.figure(figsize=(9, 9))
+plt.pie(student_heights, labels=student_names, autopct='%1.1f%%')
+plt.title('Heights of Students - Pie Chart')
 plt.axis('equal')
 plt.show()
